@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+    service_1:
+        container_name: service_1
+        image: reemasharma22/service_1
+        build: ./phone_api/service_1
+        ports: 
+        - published: 5000
+          target: 5000
+    service_2:
+        container_name: service_2
+        image: reemasharma22/service_2
+        build: ./phone_api/service_2
+    service_3:
+        container_name: service_3
+        image: reemasharma22/service_3
+        build: ./phone_api/service_3   
+    service_4:
+        container_name: service_4
+        image: reemasharma22/service_4
+        build: ./phone_api/service_4 
+       
+        
+    
+      
