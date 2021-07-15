@@ -2,10 +2,15 @@ from flask import Flask, render_template, Response, request
 from application import app
 import random
 
+
 @app.route("/price", methods=["GET","POST"])
 def price():
 
     phone_deal = request.get_json()
+    phone = {"Iphone5", "Iphone6", "Iphone7", "Iphone8"}
+    colour = {"red", "black", "white"}
+    price = ("500","600","700","800")
+
 
     if phone == "Iphone 5":
         if colour == 'black':
@@ -40,7 +45,7 @@ def price():
             price = '800'
 
     else:
-        return Response (price, mimetype "text/plain")
+        return Response(random.choice(price), mimetype = "text/plain")
 
 
 

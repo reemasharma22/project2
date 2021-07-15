@@ -9,7 +9,7 @@ def get_colour_of_phone():
     colour = ["black", "white", "red"]
     colour_of_phone = random.choice(colour)
 
-    return Response(colour, mimetype="text/plain")
+    return Response(colour_of_phone, mimetype="text/plain")
 
 
 

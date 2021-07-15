@@ -2,14 +2,14 @@ from flask import url_for
 from flask_testing import TestCase
 import requests_mock
 
-from application import app
+from app import app
 
 class TestBase(TestCase):
     def create_app(self):
         return app
 
 class TestHome(TestBase):
-    def test_home():
+    def test_home(self):
         with request_mock.Mocker() as mocker:
             mocker.get('http://phone_brand_api:5000/get_phone_brand', text='Iphone')
             mocker.get('http://colour_of_phone_api:5000/get_colour_of_phone', text='red')
