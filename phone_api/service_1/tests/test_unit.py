@@ -1,8 +1,11 @@
-from flask import url_for
+from unittest.mock import patch
+from flask import url_for 
 from flask_testing import TestCase
 import requests_mock
 
-from app import app
+from application import app, db
+from application.models import Phone 
+
 
 class TestBase(TestCase):
     def create_app(self):
@@ -17,4 +20,3 @@ class TestHome(TestBase):
             response = self.client.get(url_for('home'))
         self.assertEqual(response.status_code, 200)
         self.assertIn(b'The Iphone is red at the price of 500', response.data)
-
