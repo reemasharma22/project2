@@ -26,7 +26,7 @@ service 4: This generated a price dependant on the phone and the colour
 
 # Trello board
 
-The full trello board can be found [here]:(https://trello.com/b/sCSrpdxl/practical-project)
+The full trello board can be found [here](https://trello.com/b/sCSrpdxl/practical-project)
 
 ![image](https://user-images.githubusercontent.com/84961850/126135912-60f39f04-a8da-4207-a1a0-4464a1f82132.png)
 
@@ -34,7 +34,7 @@ The full trello board can be found [here]:(https://trello.com/b/sCSrpdxl/practic
 
 # Risk assessment 
 
-The full risk assessment can be viewed [here]: https://docs.google.com/spreadsheets/d/1LR_VZsmfVByZFJA3BPvN0WsaQbGsw9JgBUsQIkRJd3s/edit?usp=sharing
+The full risk assessment can be viewed [here](https://docs.google.com/spreadsheets/d/1LR_VZsmfVByZFJA3BPvN0WsaQbGsw9JgBUsQIkRJd3s/edit?usp=sharing)
 
 
 # Testing
