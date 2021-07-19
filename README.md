@@ -7,12 +7,19 @@
 # Requirements 
 
 Kanban Board: Asana or an equivalent Kanban Board
+
 Version Control: Git
+
 CI Server: Jenkins
+
 Configuration Management: Ansible
+
 Cloud server: GCP virtual machines
+
 Containerisation: Docker
+
 Orchestration Tool: Docker Swarm
+
 Reverse Proxy: NGINX
 
 # My project
